@@ -36,5 +36,5 @@ wandb sweep config.yaml
 ```
 その後表示されるsweep_idを用いて、以下のコードを実行してください。
 ```
-wandb agent sweep_id
+wandb agent sweep_id --count 3
 ```
